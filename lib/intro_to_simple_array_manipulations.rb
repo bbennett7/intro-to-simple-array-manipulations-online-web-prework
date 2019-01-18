@@ -30,6 +30,18 @@ def using_insert(first_array, add_array)
   first_array.insert(4, add_array)
 end
 
-def (using_uniq)
+def using_uniq(duplicate_array)
+  duplicate_array.uniq
+end
 
+def using_flatten(multiple_array)
+  multiple_array.flatten
+end
+
+def using_delete(delete_array, delete_string)
+  delete_array.delete(delete_string)
+end
+
+def using_delete_at(at_array, at_number)
+  at_array.delete_at(at_number)
 end
